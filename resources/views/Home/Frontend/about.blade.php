@@ -1,4 +1,5 @@
 @extends('Home.Layouts._layout')
+@section('title')ارتباط با ما@endsection
 @section('Content')
     <main id="main" class="site-main">
         <div class="container-fluid p-0">
