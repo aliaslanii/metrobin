@@ -45,7 +45,7 @@
                            </div>
                         </a>
                         <a class="navbar-brand" href="{{ route('home') }}"> <img class="img-fluid logo" src="{{ asset('images/logo/logoindex.png') }}" loading="lazy"
-                           alt="streamit" /> </a>
+                           alt="metrobin" /> </a>
                         <div class="mobile-more-menu">
                            <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton"
                               data-toggle="more-toggle" aria-haspopup="true" aria-expanded="false">
@@ -84,7 +84,7 @@
                                                 <a href="#" class="iq-sub-card">
                                                    <div class="media align-items-center">
                                                       <img src="images/notify/thumb-1.jpg" class="img-fluid mr-3" loading="lazy"
-                                                         alt="streamit" />
+                                                         alt="metrobin" />
                                                       <div class="media-body">
                                                          <h6 class="mb-0 ">Boop Bitty</h6>
                                                          <small class="font-size-12">همین الان</small>
@@ -94,7 +94,7 @@
                                                 <a href="#" class="iq-sub-card">
                                                    <div class="media align-items-center">
                                                       <img src="images/notify/thumb-2.jpg" class="img-fluid mr-3" loading="lazy"
-                                                         alt="streamit" />
+                                                         alt="metrobin" />
                                                       <div class="media-body">
                                                          <h6 class="mb-0 ">آخرین نفس</h6>
                                                          <small class="font-size-12">15 دقیقه قبل</small>
@@ -104,7 +104,7 @@
                                                 <a href="#" class="iq-sub-card">
                                                    <div class="media align-items-center">
                                                       <img src="images/notify/thumb-3.jpg" class="img-fluid mr-3" loading="lazy"
-                                                         alt="streamit" />
+                                                         alt="metrobin" />
                                                       <div class="media-body">
                                                          <h6 class="mb-0 ">کمپ قهرمانان</h6>
                                                          <small class="font-size-12">1 ساعت قبل</small>
@@ -224,30 +224,17 @@
                      <div class="widget text-left">
                         <div class="menu-footer-link-1-container">
                            <ul id="menu-footer-link-1" class="menu p-0">
-                              <li id="menu-item-7314"
-                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7314">
-                                 <a href="#">شرایط استفاده</a>
-                              </li>
                               <li id="menu-item-7316"
                                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7316">
-                                 <a href="../html/privacy-policy.html">سیاست حفظ حریم شخصی</a>
-                              </li>
-                              <li id="menu-item-701"
-                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701">
-                                 <a href="../html/faq.html">سوالات متداول</a>
-                              </li>
-                              <li id="menu-item-7118"
-                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7118">
-                                 <a href="../html/watch-video.html">تماشای تمام صفحه</a>
+                                 <a href="{{ route('about') }}">درباره ما</a>
                               </li>
                            </ul>
                         </div>
                      </div>
-                     <div class="widget text-left">
+                     <div class="widget text-left mt-2">
                         <div class="textwidget">
-                           <p><small>© 2021 STREAMIT. تمامی حقوق محفوظ است. تمامی ویدیوها و نمایش ها در این پلتفرم
-                              علائم تجاری، تصاویر و محتوای مرتبط متعلق به استریم آی تی می باشد
-                              کپی برداری اکیدا ممنوع می باشد، تمامی حقوق برای استریم آی تی محفوظ می باشد.</small>
+                           <p><small>در متروبین، امکان دانلود آخرین فیلم‌ها و سریال‌های ایران و جهان با کیفیت بالا و زیرنویس فارسی و دوبله را دارید. ما با افتخار به عنوان منبعی معتبر و قابل اعتماد در ارائه بهترین محتواهای سینمای ایران و جهان برای شما و همراهان عزیز شما حاضریم.
+                           </small>
                            </p>
                         </div>
                      </div>
@@ -260,10 +247,8 @@
                         ما را دنبال کنید :
                      </h6>
                      <ul class="info-share">
-                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-github"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa fa-telegram"></i></a></li>
                      </ul>
                   </div>
                </div>

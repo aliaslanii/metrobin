@@ -25,6 +25,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', [HomeController::class,'index'])->name('home');
+Route::get('/about', [HomeController::class,'about'])->name('about');
 Route::prefix('Movie')->group(function(){
     Route::get('Show/{Movieid}', [HomeMovieController::class,'showMovie'])->name('ShowMovie');
     Route::get('Favorite', [HomeMovieController::class,'favoriteMovie'])->name('FavoriteMovie');

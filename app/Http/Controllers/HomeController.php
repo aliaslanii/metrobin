@@ -30,4 +30,8 @@ class HomeController extends Controller
             'HotMovies' => $HotMovies
         ]);
     }
+    public function about()
+    {
+        return view('Home.Frontend.about');
+    }
 }
