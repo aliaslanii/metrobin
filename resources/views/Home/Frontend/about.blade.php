@@ -62,7 +62,7 @@
                 <div class="svg-mini-header">
                     <div class="text-center iq-title-box iq-title-default">
                         <h2 class="iq-title">
-                            همکاری با بهترین ها
+                            درباره مترو بین
                         </h2>
                     </div>
                 </div>
