@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/dkjtetry/Metrobin.ir
+    - export DEPLOYPATH=/home/dkjtetry/metrobin
     - export PUBLICPATH=/home/dkjtetry/public_html
     - /bin/cp -R app $DEPLOYPATH
     - /bin/cp -R routes $DEPLOYPATH
