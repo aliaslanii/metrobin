@@ -7,7 +7,7 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>@yield('title')</title>
       <!-- Favicon -->
-      <link rel="icon" type="image/png" href="{{ asset('images/logo/logo.png') }}">
+      <link rel="icon" type="image/png" href="{{ asset('images/logo/favicon.ico') }}">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="{{ load('css/bootstrap.min.css') }}">
       <!-- Typography CSS -->

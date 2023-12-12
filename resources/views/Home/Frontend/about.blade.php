@@ -5,57 +5,51 @@
             <div class="map-container" style=" left: 0px;">
                 <div class="container">
                     <div class="row about-us-row text-center align-items-center">
-                        <div class="col-md-6">
-                            <div class="text-center">
-                                <img width="497" height="477" src="images/about-us/06.jpg"
-                                    class=" img-fluid attachment-large size-large" alt="" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class=" text-left iq-title-box iq-title-default">
-                                <h2 class="iq-title" style="text-align: right;">
-                                    اینجا با ما تماس بگیرید
-                                </h2>
-                                <p class="iq-title-desc" style="direction: rtl; text-align: right;">استریم آی تی واقع در لوس
-                                    آنجلس می باشد و شما میتوانید با ما تماس بگیرید با <a
-                                        href="#">hello@streamit.com</a> برای هر آموزش مرتبط و پشتیبانی، ما با تعمل
-                                    زیاد آموزش و پشتیبانی شما را انجام خواهیم داد</p>
-                                <div class="row mt-2 iq-rtl-direction"
-                                    style="    direction: rtl;
-                      margin-left: 50px;">
-                                    <div class="col-md-4">
-                                        <div class="iq-contact-list" data-element_type="column">
-                                            <div class="counter">
-                                                <span class="counter-number" data-duration="2000" data-to-value="4"
-                                                    data-from-value="0" data-delimiter=",">4</span>
+                               <center> <h2 class="iq-title">اینجا با ما تماس بگیرید</h2></center>
+                               <div class="text-center iq-title-box iq-box iq-title-default"> 
+                             </div>
+                             <div class="wrapper">
+                                <form action="" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                   <div class="contact-form contact-style">
+                                      <div class="row">
+                                         <div class="col-md-6">
+                                            <div class="cfield">
+                                               <span class="wpcf7-form-control-wrap your-name">
+                                               <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="نام و نام خانوادگی">
+                                               </span>
                                             </div>
-                                            <div class="counter-title">شعبه</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <div class="iq-contact-list" data-element_type="column">
-                                            <div class="counter">
-                                                <span class="counter-number" data-duration="2000" data-to-value="4"
-                                                    data-from-value="0" data-delimiter=",">
-                                                    +500
-                                                </span>
+                                         </div>
+                                         <div class="col-md-6">
+                                            <div class="cfield">
+                                               <span class="wpcf7-form-control-wrap tel-478">
+                                               <input type="tel" name="tel-478" value="" size="40" maxlength="140" minlength="10" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="شماره تماس">
+                                               </span>
                                             </div>
-                                            <div class="counter-title">کارمند</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-
-                                        <div class="counter">
-                                            <span class="counter-number" data-duration="2000" data-to-value="4"
-                                                data-from-value="0" data-delimiter=",">
-                                                1,000+
+                                         </div>
+                                         <div class="col-md-12">
+                                            <div class="cfield">
+                                               <span class="wpcf7-form-control-wrap your-message">
+                                               <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="پیام شما"></textarea>
+                                               </span>
+                                            </div>
+                                         </div>
+                                         <div class="col-md-12">
+                                            <button id="submit" name="submit" type="submit" value="Send" class="btn btn-light mb-3">
+                                            <span class="iq-btn-text-holder">ارسال پیام</span>
+                                            <span class="iq-btn-icon-holder">
+                                            <i aria-hidden="true" class="ion ion-plus"></i>
                                             </span>
-                                        </div>
-                                        <div class="counter-title">کاربر</div>
-
-                                    </div>
-                                </div>
+                                            <br>
+                                            </button>
+                                         </div>
+                                      </div>
+                                   </div>
+                                   <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                </form>
+                             </div>
+                                
                             </div>
                         </div>
                     </div>
