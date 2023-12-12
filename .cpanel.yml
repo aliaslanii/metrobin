@@ -1,8 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/zxnlgcme/mobilinostore
-    - export PUBLICPATH=/home/zxnlgcme/public_html
+    - export DEPLOYPATH=/home/dkjtetry/mobilinostore
+    - export PUBLICPATH=/home/dkjtetry/public_html
     - /bin/cp -R app $DEPLOYPATH
     - /bin/cp -R routes $DEPLOYPATH
     - /bin/cp -R resources $DEPLOYPATH
